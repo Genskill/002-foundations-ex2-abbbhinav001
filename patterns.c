@@ -9,7 +9,7 @@ int main()
 	switch(n)
 	{
 		case 1 :
-			for(i=0;i<r;i++)
+			for(i=r-1;i>=0;i--)
 			{
 				for(j=0;j<=i;j++)
 					printf("#");

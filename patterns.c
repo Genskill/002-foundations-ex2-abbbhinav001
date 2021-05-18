@@ -5,7 +5,7 @@ int main()
 {
 	int n, r, i, j, k;
 	n = get_int("Enter type of pattern (1 or 2) ");
-	r = get_int("Number of rows");
+	r = get_int("Number of rows ");
 	switch(n)
 	{
 		case 1 :

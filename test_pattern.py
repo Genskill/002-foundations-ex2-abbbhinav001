@@ -4,7 +4,7 @@ import sys
 def get_output(pattern, rows):
     p = subprocess.Popen("./patterns", stdout=subprocess.PIPE, stdin=subprocess.PIPE)
     op,_ = p.communicate(f"{pattern}\n{rows}\n".encode("ascii"))
-    op = op.decode("ascii").replace("Enter type of pattern (1 or 2) Number of rows ", "")
+    op = op.decode("ascii").replace("Enter type of pattern (1 or 2) Number of rows", "")
     return op
 
 def test():
